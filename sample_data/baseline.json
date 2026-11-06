@@ -1,0 +1,60 @@
+{
+  "_comment": "Golden rules of Tailspin Logistics (fictional). Versions are the ones this company approved, not vendor recommendations.",
+  "ntp_servers": [
+    "10.10.0.10",
+    "10.10.0.11"
+  ],
+  "syslog_hosts": [
+    "10.10.0.20"
+  ],
+  "timezone": {
+    "ios": "CET",
+    "aruba": "60"
+  },
+  "max_idle_minutes": 15,
+  "parking_vlan": 999,
+  "native_vlan": 998,
+  "port_security_sites": [
+    "MAD"
+  ],
+  "unused_descriptions": [
+    "unused",
+    "spare",
+    "free",
+    "parking"
+  ],
+  "snmp_forbidden": [
+    "public",
+    "private"
+  ],
+  "approved_versions": {
+    "C9300": [
+      "17.9.5",
+      "17.12.4"
+    ],
+    "C9200": [
+      "17.9.5",
+      "17.12.4"
+    ],
+    "ISR4331": [
+      "17.9.5",
+      "17.12.4"
+    ],
+    "WS-C3750X": [],
+    "2930F": [
+      "WC.16.11.0012"
+    ],
+    "FortiGate 100F": [
+      "7.2.10",
+      "7.4.7"
+    ],
+    "FortiGate 60F": [
+      "7.2.10",
+      "7.4.7"
+    ]
+  },
+  "min_firmware": {
+    "FortiGate 100F": "7.2.10",
+    "FortiGate 60F": "7.2.10"
+  }
+}

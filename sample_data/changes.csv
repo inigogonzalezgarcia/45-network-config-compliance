@@ -1,0 +1,5 @@
+number,configuration_item,planned_start,planned_end,approval,state,short_description
+CHG0045112,MAD-CS01,2026-11-03 22:00,2026-11-04 00:00,Approved,Closed,Add VLAN 140 for the new handheld scanners
+CHG0045120,VLC-RT01,2026-11-05 22:00,2026-11-05 23:30,Approved,Implement,QoS policy update on the MPLS uplink
+CHG0045131,MAD-AS07,2026-11-12 22:00,2026-11-12 23:00,Requested,Assess,Move the warehouse office ports to the new voice VLAN
+CHG0045140,ZAZ-FW01,2026-11-10 22:00,2026-11-10 23:00,Approved,Scheduled,Remove the temporary WMS cutover policy

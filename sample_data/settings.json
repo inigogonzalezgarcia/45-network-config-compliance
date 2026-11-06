@@ -1,0 +1,33 @@
+{
+  "organisation": "Tailspin Logistics",
+  "as_of": "2026-11-06 08:00",
+  "backup_max_days": 7,
+  "backup_critical_days": 30,
+  "unsaved_critical_hours": 24,
+  "eos_warning_days": 180,
+  "disabled_policy_days": 90,
+  "sites": {
+    "MAD": "Madrid HQ",
+    "ZAZ": "Zaragoza hub",
+    "VLC": "Valencia port warehouse"
+  },
+  "change_windows": [
+    {
+      "name": "CW 2026-46",
+      "start": "2026-11-10 22:00"
+    },
+    {
+      "name": "CW 2026-47",
+      "start": "2026-11-17 22:00"
+    }
+  ],
+  "owners": {
+    "backup": "Network operations (Marta Ibáñez)",
+    "management": "Network engineering (Daniel Ferrer)",
+    "logging": "Network engineering (Daniel Ferrer)",
+    "switching": "Network engineering (Daniel Ferrer)",
+    "firewall": "Security engineering (Lucía Prieto)",
+    "lifecycle": "Infrastructure manager (Carlos Vidal)",
+    "inventory": "Device42 owner (Marta Ibáñez)"
+  }
+}
